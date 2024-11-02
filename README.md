@@ -10,4 +10,4 @@
         - Cool API Server
 
     - Contact Me
-    -   Skills/Experience/Education
+    - Skills/Experience/Education
