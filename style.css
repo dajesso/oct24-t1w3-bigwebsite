@@ -68,6 +68,17 @@ h1, p{
     margin: 0.5rem 0;
 }
 
+h2{
+    margin: 0.5rem 0;
+    color: var(--orchid-pink);
+}
+
+
+ul{
+    margin: 0.5rem;
+    padding-left: 0.5rem;
+    
+}
 
 nav a:hover{
     color: #8b575cff;
@@ -84,6 +95,44 @@ header > p{
     font-size: xx-large;
     font-weight: bold;
 
+}
+
+@keyframes felicis_move{
+    0%   {left:0px; top:0px;}
+  25%  {left:200px; top:0px;}
+  50%  {left:200px; top:200px;}
+  75%  {left:0px; top:200px;}
+  100% {left:0px; top:0px;}
+}
+
+
+input[type=text], textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: var(--pale-purple);
+
+  }
+
+  input[type=submit] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: var(--pale-purple);
+    font-size: large;
+  }
+
+ 
+
+.felicis{
+    width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: felicis_move;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
 nav{
